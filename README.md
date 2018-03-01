@@ -9,11 +9,11 @@
         }
         .float .left {
             float: left;
-            width: 100px;
+            width: 200px;
             background-color: red;
         }
         .float .right {
-            width: 100px;
+            width: 200px;
             float: right;
             background-color: blue;
         }
@@ -22,47 +22,47 @@
         }
     </style>
     <article>
-        <h1>浮动</h1>
+        <h1>float</h1>
         <div class="container float">
             <div class="left"></div>
             <div class="right"></div>
-            <div class="main">深Vvvv</div>
+            <div class="main">float</div>
         </div>
     </article>
 </section>
-    <section>
-        <style>
-            .position{
-                position: relative;
-            }
-            .position>div{
-                position: absolute;
-            }
-            .position .left {
-                left: 0;
-                width: 200px;
-                background-color: red;
-            }
-            .position .right {
-                right: 0;
-                width: 200px;
-                background-color: blue;
-            }
-            .position .main {
-                left: 200px;
-                right: 200px;
-                background-color: green;
-            }
-        </style>
-        <article>
-            #<h1>BFC</h1>
-            <div class="container position">
-                <div class="left"></div>
-                <div class="right"></div>
-                <div class="main">position</div>
-            </div>
-        </article>
-    </section>
+<section>
+    <style>
+        .position{
+            position: relative;
+        }
+        .position>div{
+            position: absolute;
+        }
+        .position .left {
+            left: 0;
+            width: 200px;
+            background-color: red;
+        }
+        .position .right {
+            right: 0;
+            width: 200px;
+            background-color: blue;
+        }
+        .position .main {
+            left: 200px;
+            right: 200px;
+            background-color: green;
+        }
+    </style>
+    <article>
+        <h1>BFC</h1>
+        <div class="container position">
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="main">position</div>
+        </div>
+    </article>
+</section>
 <section>
     <style>
         .flex-container{
