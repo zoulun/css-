@@ -10,15 +10,15 @@
         .float .left {
             float: left;
             width: 200px;
-            background-color: red;
+            background-color: #377159;
         }
         .float .right {
             width: 200px;
             float: right;
-            background-color: blue;
+            background-color: #b7bb92;
         }
         .float .main {
-            background-color: green;
+            background-color: #5a6c80;
         }
     </style>
     <article>
@@ -41,17 +41,17 @@
         .position .left {
             left: 0;
             width: 200px;
-            background-color: red;
+            background-color: #377159;
         }
         .position .right {
             right: 0;
             width: 200px;
-            background-color: blue;
+            background-color: #b7bb92;
         }
         .position .main {
             left: 200px;
             right: 200px;
-            background-color: green;
+            background-color: #5a6c80;
         }
     </style>
     <article>
@@ -73,15 +73,15 @@
         }
         .flex .left {
             width: 200px;
-            background-color: red;
+            background-color: #377159;
         }
         .flex .right {
             width: 200px;
-            background-color: blue;
+            background-color: #b7bb92;
         }
         .flex .main {
             flex: 1;
-            background-color: green;
+            background-color: #5a6c80;
         }
     </style>
     <article class="flex-container">
@@ -104,14 +104,14 @@
         }
         .table .left{
             width: 200px;
-            background-color: red;
+            background-color: #377159;
         }
         .table .right {
             width: 200px;
-            background-color: blue;
+            background-color: #b7bb92;
         }
         .table .main {
-            background-color: green;
+            background-color: #5a6c80;
         }
     </style>
     <article>
@@ -132,13 +132,13 @@
             grid-template-columns: 200px auto 200px;
         }
         .grid .left{
-            background-color: red;
+            background-color: #377159;
         }
         .grid .right {
-            background-color: blue;
+            background-color: #b7bb92;
         }
         .grid .main {
-            background-color: green;
+            background-color: #5a6c80;
         }
     </style>
     <article>
