@@ -1,4 +1,5 @@
 # css三栏布局的五种方法
+```html
 <section>
     <style>
         .float:after{
@@ -149,3 +150,4 @@
         </div>
     </article>
 </section>
+```
