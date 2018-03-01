@@ -24,15 +24,15 @@
         .float .left {
             float: left;
             width: 200px;
-            background-color: red;
+            background-color: #377159;
         }
         .float .right {
             width: 200px;
             float: right;
-            background-color: blue;
+            background-color: #b7bb92;
         }
         .float .main {
-            background-color: green;
+            background-color: #5a6c80;
         }
     </style>
     <article>
@@ -44,39 +44,39 @@
         </div>
     </article>
 </section>
-    <section>
-        <style>
-            .position{
-                position: relative;
-            }
-            .position>div{
-                position: absolute;
-            }
-            .position .left {
-                left: 0;
-                width: 200px;
-                background-color: red;
-            }
-            .position .right {
-                right: 0;
-                width: 200px;
-                background-color: blue;
-            }
-            .position .main {
-                left: 200px;
-                right: 200px;
-                background-color: green;
-            }
-        </style>
-        <article>
-            <h1>BFC</h1>
-            <div class="container position">
-                <div class="left"></div>
-                <div class="right"></div>
-                <div class="main">position</div>
-            </div>
-        </article>
-    </section>
+<section>
+    <style>
+        .position{
+            position: relative;
+        }
+        .position>div{
+            position: absolute;
+        }
+        .position .left {
+            left: 0;
+            width: 200px;
+            background-color: #377159;
+        }
+        .position .right {
+            right: 0;
+            width: 200px;
+            background-color: #b7bb92;
+        }
+        .position .main {
+            left: 200px;
+            right: 200px;
+            background-color: #5a6c80;
+        }
+    </style>
+    <article>
+        <h1>BFC</h1>
+        <div class="container position">
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="main">position</div>
+        </div>
+    </article>
+</section>
 <section>
     <style>
         .flex-container{
@@ -87,15 +87,15 @@
         }
         .flex .left {
             width: 200px;
-            background-color: red;
+            background-color: #377159;
         }
         .flex .right {
             width: 200px;
-            background-color: blue;
+            background-color: #b7bb92;
         }
         .flex .main {
             flex: 1;
-            background-color: green;
+            background-color: #5a6c80;
         }
     </style>
     <article class="flex-container">
@@ -118,14 +118,14 @@
         }
         .table .left{
             width: 200px;
-            background-color: red;
+            background-color: #377159;
         }
         .table .right {
             width: 200px;
-            background-color: blue;
+            background-color: #b7bb92;
         }
         .table .main {
-            background-color: green;
+            background-color: #5a6c80;
         }
     </style>
     <article>
@@ -146,13 +146,13 @@
             grid-template-columns: 200px auto 200px;
         }
         .grid .left{
-            background-color: red;
+            background-color: #377159;
         }
         .grid .right {
-            background-color: blue;
+            background-color: #b7bb92;
         }
         .grid .main {
-            background-color: green;
+            background-color: #5a6c80;
         }
     </style>
     <article>
